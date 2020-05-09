@@ -1,0 +1,389 @@
+html {
+    background-color: white;
+    font-size: (100vw — 769px)/2048px;
+}
+
+body{
+    display: block;
+    margin: 8px;
+}
+
+.div1 {
+   background-color:#194277; 
+   height: 40px;
+   padding-top: 20px;
+   padding-bottom: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   border: 1px dashed none;
+   justify-content: center;
+}
+
+.div2 {
+    height: 700px;
+    background-image: url(./Foto.png);
+    text-align: center;
+}
+
+.div3{
+    display: inline-block;
+    vertical-align: middle;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.back {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 0 6px #5799fe, 0 0 0 12px #428cfe;
+    line-height: normal;
+    
+}
+
+.cookies {
+    color: white;
+    font-style: normal;
+    display: inline-block;
+    font-family:  'Raleway', sans-serif;
+    font-size: 11px;
+    vertical-align: middle;
+} 
+
+.Accept {
+    background-color: white;
+    color: #194277;
+    border-radius: 15px;  
+    height: 20px;
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 20px;  
+    padding-top: 10px ;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    text-decoration: none; 
+}
+
+.menu {
+    font-size: 30px;
+    color: white;
+    outline: none;
+    border: 0;
+    background: transparent;
+    text-align: right;
+ position: absolute;
+ right: 250px;
+ margin-top: 20px;
+}
+
+.free {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+   letter-spacing: 1px;
+   font-family: 'Raleway', sans-serif;
+}
+
+.LABORE {
+    color: white;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2.5;
+}
+
+.button_hire_me{
+    display: flex;
+  flex-wrap: wrap;
+    height: 150px;
+ width: 200px;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.hire {
+   
+    background-color: white;
+    color: #4ea3fd;
+    border-radius: 30px;  
+    height: 30px;
+    width: 120px;
+    font-size: 20px;  
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 40px;
+    outline: none;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.arrow{
+    color: white;
+    vertical-align: middle;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 45%;
+    margin-bottom: 30%;
+    text-decoration: none;
+   
+} 
+
+.about_me{
+    height: 100px;
+}
+
+#about_me {
+    text-align: center;
+    color: #6fb3ff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.lorem {
+    text-align: center;
+    font-size: 11px;
+    line-height: 40px;
+    color:#646464;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.blocks_exper_in{
+     color: #368cfe;
+     font-weight: bold;
+     text-align: center;
+     font-family: 'Raleway', sans-serif;
+     font-size: 20px;
+}
+
+.proposition{
+    margin-top: 10%;
+    background-color: #f7faff;
+}
+
+.box {
+    flex-basis: 31%;
+    min-width: 120px;
+    margin: 1% 1%;
+    height: 50%;
+    float: left;
+} 
+
+
+.expert {
+    padding-top: 2% ;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.expert_foto{
+    padding:15px;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    border: solid 1px lightgray;
+} 
+
+.caption_lol {
+    text-align: center;
+    color: #6fb3ff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.caption {
+    text-align: center;
+    color: #6fb3ff;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 3%;
+}
+.div4{
+    display: block;
+}
+
+.img2 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: normal;
+}
+
+.clients{
+    background-color: #f7faff;
+}
+
+.img-clients{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.microsoft{
+    margin: auto 20px;
+    width: 10%;
+    filter: grayscale(100%);
+}
+
+.samsung{
+    margin: auto 20px;
+    width: 10%;
+    filter: grayscale(100%);
+}
+
+.ibm{
+    margin: auto 20px;
+    width: 10%;
+    filter: grayscale(100%);
+}
+
+.google{
+    margin: auto 20px;
+    width: 10%;
+    filter: grayscale(100%);
+}
+
+/*footer*/
+
+.div_footer{
+    height: 50px;
+    background-image: url(./Foto.png);  
+    padding-top: 10px;
+    padding-bottom: 30px;
+    vertical-align:middle;
+    display: flex;
+   flex-wrap: wrap;
+   border: 1px dashed none;
+   justify-content: center;
+}
+
+.need{
+    color: white;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    
+   
+    
+} 
+
+.button2 {
+    background-color: white;
+    color: #4ea3fd;
+    border-radius: 30px;  
+    height: 20px;
+    width: 60px;
+    font-size: 11px;  
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1%;
+    padding-top: 10px;
+    outline: none;
+}
+
+.bold{
+    text-align:25px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:920px){
+	
+	.cookies{
+		font-size: 9px;
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+
+    .div2{
+        height: 80%;
+    }
+
+    .LABORE{
+        font-size:25%;
+    }
+
+    .menu {
+		right: 10%;
+    }
+    
+    .lorem{
+        font-size: 1%;
+        line-height: 200%;
+    }  
+
+    .caption{
+        font-size: 80%;
+    }
+
+    .box{
+        height: 70%;
+    }
+    
+    #about_me{
+        font-size:80% ;
+    }
+
+    .free{
+        font-size: 20px;
+    }
+
+    .div_footer{
+        height: 20%;
+        padding-top: 5%;
+    }
+
+
+    .back{
+        margin-left: 5%;
+    }
+
+    .blocks_exper_in{
+        font-size: 30%;
+    }
+
+     .expert_foto{
+    height:10% ;
+    width: 20%;
+    }
+
+    .caption_lol{
+        font-size: 80%;
+        }
+
+     .lates_works{
+    height: 50%;
+    }
+
+     .div4{
+height: 50%;
+    }
+
+     .img2{
+    width: 90%;
+     }
+
+     .need{
+         margin-left: 6%;
+         font-size: 15px;
+     }
+      
+     .button2{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin: auto;
+        }
+   
+}
