@@ -1,6 +1,4 @@
-html {
-    font-size: (100vw — 769px)/2048px;
-}
+
 
 body{
     display: block;
@@ -284,7 +282,7 @@ body{
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 8px;
     padding-bottom: 5px;
     margin: 2.5% 1%;
     text-decoration: none;
@@ -319,6 +317,10 @@ body{
 
     .box{
         min-width: 250px;
+    }
+
+    .lorem_box{
+        font-size: 8px;
     }
 }
 
@@ -403,7 +405,7 @@ body{
     }
 
     .lorem{
-        font-size: 7px;
+        font-size: 10px;
     }
     
     .button2{
@@ -413,6 +415,8 @@ body{
     .need{
         font-size: 14px;
     }
+
+
 }
 
 @media screen and (max-width:600px){
@@ -449,7 +453,7 @@ body{
     }
 
     .lorem{
-        font-size: 6px;
+        font-size: 10px;
     }
 
     .blocks_exper_in{
@@ -506,15 +510,15 @@ body{
     }
 
     .lorem_box{
-        font-size: 6px;
+        font-size: 10px;
     }
 
     .lorem{
-        font-size: 4px;
+        font-size: 8px;
     }
 
     .blocks_exper_in{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .need{
