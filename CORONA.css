@@ -308,7 +308,7 @@ body{
 @media screen and (max-width:1250px){
 
     .div2 {
-        height: calc(826/1410*95vw);
+        height: calc(826/1410*85vw);
     }
 
     .lorem{
@@ -320,6 +320,12 @@ body{
     }
 }
 
+@media screen and (max-width:1100px){
+
+    .div2 {
+        height: calc(826/1410*95vw);
+    }
+}
 
 
 @media screen and (max-width:920px){
@@ -451,7 +457,7 @@ body{
 
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:520px){
     .div2 {
         height: calc(826/1410*157vw);
     }
