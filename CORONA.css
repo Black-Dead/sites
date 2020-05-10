@@ -18,7 +18,7 @@ body{
 }
 
 .div2 {
-    height: 550px;
+    height: 35vw;
     background-image: url(./Foto.png);
     text-align: center;
 }
@@ -48,7 +48,7 @@ body{
     font-style: normal;
     display: inline-block;
     font-family:  'Raleway', sans-serif;
-    font-size: 11px;
+    font-size: 16px;
     vertical-align: middle;
 } 
 
@@ -60,10 +60,11 @@ body{
     width: 60px;
     text-align: center;
     font-weight: bold;
-    font-size: 11px;
-    margin-left: 20px;  
-    padding-top: 8px ;
-    padding-bottom: 1px;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-left: 3%; 
+    padding-top: 6px ;
+    padding-bottom: 4px;
     font-family: 'Raleway', sans-serif;
     outline: none;
     text-decoration: none; 
@@ -379,9 +380,6 @@ body{
         font-size: 18px;
     }
 
-    .lorem_box{
-        font-size: 7px;
-    }
 }
 @media screen and (max-width:600px){
     .free{
@@ -419,13 +417,24 @@ body{
 
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:520px){
+    .cookies{
+        font-size: 12px;
+    }
+
+    .Accept{
+        margin-top: 0px;
+        font-size: 11px;
+        padding-top: 9px;
+        padding-bottom: 1px;
+    }
+
     .free{
         font-size: 22px;
     }
 
     .div2{
-        height: 500px;
+        height: 100vw;
     }
     
     .expert_foto{
@@ -472,7 +481,7 @@ body{
     }
 
     .div2{
-        height: 400px;
+        height: 120vw;
     }
 
     .back{
