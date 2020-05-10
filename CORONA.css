@@ -64,7 +64,8 @@ body{
     font-weight: bold;
     font-size: 11px;
     margin-left: 20px;  
-    padding-top: 1% ;
+    padding-top: 8px ;
+    padding-bottom: 1px;
     font-family: 'Raleway', sans-serif;
     outline: none;
     text-decoration: none; 
@@ -79,12 +80,11 @@ body{
     text-align: right;
     position: absolute;
     right: 10%;
-    margin-top: 20px;
 }
 
 .free {
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
     color: white;
     letter-spacing: 1px;
@@ -93,7 +93,7 @@ body{
 
 .LABORE {
     color: white;
-    font-size: 10px;
+    font-size: 16px;
     font-style: normal;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -102,30 +102,28 @@ body{
 
 .button_hire_me{
     display: flex;
-    flex-wrap: wrap;
-    height: 150px;
+    flex-wrap: wrap;   
     width: 200px;   
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
 }
 
 .hire {
     background-color: white;
     color: #4ea3fd;
     border-radius: 30px;  
-    height: 10%;
-    width: 30%;
-    font-size: 10px;  
+    height: 20%;
+    width: 40%;
+    font-size: 16px;  
     vertical-align: middle;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-top: 5%;
-    margin-left: 35%;
+    margin-left: 30%;
     outline: none;
     text-decoration: none;
-    padding-top: 10px;
+    padding-top: 4px;
     padding-bottom: 3px;
 }
 
@@ -142,7 +140,7 @@ body{
 
 
 #about_me {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     color: #6fb3ff;
     font-family: 'Raleway', sans-serif;
@@ -150,7 +148,7 @@ body{
 
 .lorem {
     text-align: center;
-    font-size: 8px;
+    font-size: 16px;
     line-height: 200%;
     color:#646464;
     font-family: 'Raleway', sans-serif;;
@@ -171,10 +169,8 @@ body{
 
 .box {
     flex-basis: 31%;
-    min-width: 120px;
+    min-width: 410px;
     margin: 1% 1%;
-    height: 50%;
-    float: left;
 } 
 
 
@@ -188,21 +184,21 @@ body{
 
 .expert_foto{
     padding:15px;
-    height: 15%;
-    width: 15%;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     border: solid 1px lightgray;
 } 
 
 .caption_lol {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     color: #6fb3ff;
     font-family: 'Raleway', sans-serif;
 }
 
 .caption {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     color: #6fb3ff;
     font-family: 'Raleway', sans-serif;
@@ -276,19 +272,22 @@ body{
     color: #4ea3fd;
     border-radius: 30px;  
     height: 20px;
-    width: 60px;
-    font-size: 11px;  
+    width: 80px;
+    font-size: 16px;  
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    margin: 1%;
     text-decoration: none;
-    margin: 1% ;
-    padding-top: 1%;
     outline: none;
 }
 
 .bold{
     font-weight: bolder;
+}
+
+@media screen and (max-width:920px){
+
 }
 
 
