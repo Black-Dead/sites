@@ -141,9 +141,6 @@ body{
    
 } 
 
-.about_me{
-    height: 100px;
-}
 
 #about_me {
     text-align: center;
@@ -293,6 +290,7 @@ body{
     margin-top: 1%;
     padding-top: 10px;
     outline: none;
+    margin-right: 1%;
 }
 
 .bold{
@@ -321,7 +319,7 @@ body{
     }
     
     .lorem{
-        font-size: 1%;
+        font-size: 100%;
         line-height: 200%;
     }  
 
