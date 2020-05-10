@@ -173,6 +173,7 @@ body{
 }
 
 .box {
+    justify-content: center;
     flex-basis: 31%;
     min-width: 120px;
     margin: 1% 1%;
