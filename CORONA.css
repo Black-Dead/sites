@@ -18,9 +18,11 @@ body{
 }
 
 .div2 {
-    height: 35vw;
+    height: calc(500/1610*100vw);
     background-image: url(./Foto.png);
-    text-align: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center; 
 }
 
 .div3{
@@ -259,7 +261,9 @@ body{
 /*footer*/
 
 .div_footer{
-    background-image: url(./Foto.png);  
+    background-image: url(./Foto.png);
+    background-repeat:no-repeat;
+    background-size: cover;  
     display: flex;
    flex-wrap: wrap;
    border: 1px dashed none;
@@ -433,9 +437,6 @@ body{
         font-size: 22px;
     }
 
-    .div2{
-        height: 100vw;
-    }
     
     .expert_foto{
         height:20% ;
@@ -485,7 +486,7 @@ body{
     }
 
     .back{
-        height: 50%;
+        height: 55%;
         width: 25%;
     }
 
