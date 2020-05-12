@@ -298,18 +298,23 @@ body{
     font-weight: bolder;
 }
 
-@media screen and (max-width:1500px){
-    .div2 {
-        height: calc(826/1410*70vw);
-    }
+@media screen and (max-width:1450px){
+   .back{
+       margin: auto;
+   }
+   .LABORE{
+       margin:auto
+   }
+   .free{
+       margin:auto
+   }
+   .button_hire_me{
+       margin: auto;
+   }
 }
 
 
 @media screen and (max-width:1250px){
-
-    .div2 {
-        height: calc(826/1410*85vw);
-    }
 
     .lorem{
         font-size: 14px;
@@ -320,18 +325,9 @@ body{
     }
 }
 
-@media screen and (max-width:1100px){
-
-    .div2 {
-        height: calc(826/1410*95vw);
-    }
-}
-
 
 @media screen and (max-width:920px){
-    .div2 {
-        height: calc(826/1410*105vw);
-    }
+
 
     .LABORE{
         font-size: 14px;
@@ -354,9 +350,7 @@ body{
 }
 
 @media screen and (max-width:800px){
-    .div2 {
-        height: calc(826/1410*117vw);
-    }
+
 
     .free{
         font-size: 30px;
@@ -384,9 +378,7 @@ body{
 
 }
 @media screen and (max-width:700px){
-    .div2 {
-        height: calc(826/1410*130vw);
-    }
+
 
     .free{
         font-size: 28px;
@@ -418,9 +410,7 @@ body{
 
 }
 @media screen and (max-width:600px){
-    .div2 {
-        height: calc(826/1410*145vw);
-    }
+  
 
     .free{
         font-size: 26px;
@@ -458,9 +448,6 @@ body{
 }
 
 @media screen and (max-width:520px){
-    .div2 {
-        height: calc(826/1410*157vw);
-    }
 
     .cookies{
         font-size: 12px;
@@ -517,9 +504,7 @@ body{
 }
 
 @media screen and (max-width:420px){
-    .div2 {
-        height: calc(826/1410*167vw);
-    }
+
 
     .cookies{
         font-size: 8px;
@@ -528,8 +513,6 @@ body{
     .div2{
         height: 120vw;
     }
-
-    
 
     .free{
         font-size: 16px;
