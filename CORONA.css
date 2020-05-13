@@ -18,7 +18,6 @@ body{
 }
 
 .div2 {
-    height: calc(826/1410*60vw);
     background-image: url(./Foto.png);
     background-repeat:no-repeat;
     background-size: cover;
@@ -299,18 +298,18 @@ body{
 }
 
 @media screen and (max-width:1450px){
-   .back{
-       margin: auto;
-   }
-   .LABORE{
-       margin:auto
-   }
-   .free{
-       margin:auto
-   }
-   .button_hire_me{
-       margin: auto;
-   }
+    .back{
+        margin: auto;
+    }
+    .free{
+        margin: auto;
+    }
+    .LABORE{
+        margin: auto;
+    }
+    .button_hire_me{
+        margin: auto;
+    }
 }
 
 
@@ -510,9 +509,7 @@ body{
         font-size: 8px;
     }
 
-    .div2{
-        height: 120vw;
-    }
+    
 
     .free{
         font-size: 16px;
