@@ -7,12 +7,17 @@
     <link rel="stylesheet"   href="CORONA.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3cf9af501e.js" crossorigin="anonymous"></script>
+    <script>
+function ShowDiv(){
+ document.getElementById('div1').style.display = 'none';
+}
+    </script>
 </head>
 <body>
     <header>
-        <div class="div1">
+        <div id="div1"class="div1">
              <p class="cookies"> This site uses cookies, so that my service my work better.</p>
-            <a href="#" class="Accept">Accept</a>  
+            <a href="#" onclick="ShowDiv()" class="Accept">Accept</a>  
         </div>
     <div class="div2">
         <button class="menu">
